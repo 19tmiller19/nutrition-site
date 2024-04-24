@@ -1,0 +1,60 @@
+
+.WaterHero h1{
+    position: relative;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 75px;
+    font-weight: 500;
+}
+.WaterHero p{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+form{
+    max-width: 600;
+    width:50%;
+    margin:auto;
+    height:80px;
+    background: transparent;
+    display:flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+}
+form input{
+    flex:1;
+    height:50px;
+    outline: 0;
+    background: transparent;
+    color:white;
+    font-size: 18px;
+    padding: 0 30px;
+    border: 1px solid #000000;
+    border-radius: 12px;
+}
+form button{
+    padding: 10px;
+    height: 50px;
+    width: 75px;
+    background: #a8fe39;
+    color:white;
+    font-size: 18px;
+    border: 0;
+    outline:0;
+    border-radius: 12px;;
+    cursor: pointer;
+    margin-left: 10px;
+}
+::placeholder{
+    color: gray;
+    font-size:18px;
+}
+.water-hero-img{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
